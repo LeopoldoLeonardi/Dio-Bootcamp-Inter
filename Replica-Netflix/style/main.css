@@ -1,0 +1,150 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 40px;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;   
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+/*filme padrao*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/baner-principal.jpeg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.carrosel-filmes{
+    margin: 5px;
+}
+
+.carrosel-filmes a{
+    text-decoration: none;  
+    color: white; 
+    font-size: 25px;
+    margin: 50px 40px;
+    padding: 0px 30px;
+}
+
+.container-footer{
+    margin: 70px 350px;    
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;        
+}
+
+.links-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    text-decoration: none; 
+    padding: 2px;
+}
+
+.midias-sociais{
+    display: flex;
+    align-items: center;    
+    margin: 50px;
+    align-items: flex-start;
+}
+
